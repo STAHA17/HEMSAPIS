@@ -21,7 +21,6 @@ return new class extends Migration
             $table->string('u_login');
             $table->string('u_rights');
             $table->string('status');
-            $table->string('A');
             $table->rememberToken();
             $table->timestamps();
         });
